@@ -180,11 +180,11 @@ class MainAct : TcnMainActivity() {
         menu_lift_ship_slot = findViewById<View>(R.id.menu_lift_ship_slot) as ButtonEditSelectD
         if (menu_lift_ship_slot != null) {
             menu_lift_ship_slot!!.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY)
-            menu_lift_ship_slot!!.setButtonName("出货例子")
+            menu_lift_ship_slot!!.setButtonName("Yetkazib berish misollari")
             menu_lift_ship_slot!!.setButtonNameTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(20)
             )
-            menu_lift_ship_slot!!.setButtonQueryText("出货")
+            menu_lift_ship_slot!!.setButtonQueryText("yuk tashish; yetkazib berish")
             menu_lift_ship_slot!!.setButtonQueryTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(16)
             )
@@ -198,11 +198,11 @@ class MainAct : TcnMainActivity() {
             findViewById<View>(R.id.menu_lift_ship_slot_test) as ButtonEditSelectD
         if (menu_lift_ship_slot_test != null) {
             menu_lift_ship_slot_test!!.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY)
-            menu_lift_ship_slot_test!!.setButtonName("测试货道")
+            menu_lift_ship_slot_test!!.setButtonName("Test Yurdo chizig'i")
             menu_lift_ship_slot_test!!.setButtonNameTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(20)
             )
-            menu_lift_ship_slot_test!!.setButtonQueryText("测试")
+            menu_lift_ship_slot_test!!.setButtonQueryText("test")
             menu_lift_ship_slot_test!!.setButtonQueryTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(16)
             )
@@ -215,11 +215,11 @@ class MainAct : TcnMainActivity() {
         menu_lift_reqselect = findViewById<View>(R.id.menu_lift_reqselect) as ButtonEditSelectD
         if (menu_lift_reqselect != null) {
             menu_lift_reqselect!!.setButtonType(ButtonEditSelectD.BUTTON_TYPE_EDIT_QUERY)
-            menu_lift_reqselect!!.setButtonName("选择货道")
+            menu_lift_reqselect!!.setButtonName("Yukning marshrutini tanlang")
             menu_lift_reqselect!!.setButtonNameTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(20)
             )
-            menu_lift_reqselect!!.setButtonQueryText("选择")
+            menu_lift_reqselect!!.setButtonQueryText("tanlamoq")
             menu_lift_reqselect!!.setButtonQueryTextSize(
                 TcnVendIF.getInstance().getFitScreenSize(16)
             )

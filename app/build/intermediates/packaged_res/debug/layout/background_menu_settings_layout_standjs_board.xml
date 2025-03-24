@@ -28,7 +28,7 @@
                 android:layout_height="26dp"
                 android:background="@color/blue"
                 android:gravity="center"
-                android:text="设置串口"
+                android:text="Seriya portini o'rnating"
                 android:textColor="@color/red"
                 android:textSize="18sp" />
 
@@ -58,13 +58,11 @@
             </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
 
             <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
-                android:visibility="gone"
                 android:id="@+id/menu_ys_query_drive_slot_info"
                 style="@style/background_lrmarginss"
                 android:layout_width="match_parent"
-                android:layout_height="100px">
-            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
-
+                android:layout_height="100px"
+                android:visibility="gone"></com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
 
 
             <LinearLayout

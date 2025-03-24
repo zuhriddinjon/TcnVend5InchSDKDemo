@@ -20,16 +20,16 @@
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/drawable-xhdpi/title_back_normal.9.png"
     },
     {
-        "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/drawable_ui_base_btn_pressed.xml.flat",
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/drawable/ui_base_btn_pressed.xml"
     },
     {
-        "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -50,6 +50,10 @@
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/drawable_ui_base_button_green_normal.xml.flat",
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/drawable/ui_base_button_green_normal.xml"
+    },
+    {
+        "merged": "com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/layout_background_menu_settings_layout_standjs_board.xml.flat",
+        "source": "com.tcn.sdk.lifthefansxdemo.app-main-10:/layout/background_menu_settings_layout_standjs_board.xml"
     },
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-xhdpi_switch_btn_slip.png.flat",
@@ -100,10 +104,6 @@
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/xml/preferences.xml"
     },
     {
-        "merged": "com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/xml_serial_port_preferences.xml.flat",
-        "source": "com.tcn.sdk.lifthefansxdemo.app-main-10:/xml/serial_port_preferences.xml"
-    },
-    {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/drawable_ui_base_pic_selector.xml.flat",
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/drawable/ui_base_pic_selector.xml"
     },
@@ -122,10 +122,6 @@
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/mipmap-xhdpi_fm_play_page_playing_loading.png.flat",
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/mipmap-xhdpi/fm_play_page_playing_loading.png"
-    },
-    {
-        "merged": "com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/xml_number_input.xml.flat",
-        "source": "com.tcn.sdk.lifthefansxdemo.app-main-10:/xml/number_input.xml"
     },
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/layout_background_menu_settings_layout_lift.xml.flat",
@@ -158,10 +154,6 @@
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/layout_ui_base_button_switch_layout.xml.flat",
         "source": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-main-10:/layout/ui_base_button_switch_layout.xml"
-    },
-    {
-        "merged": "com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/xml_preferences.xml.flat",
-        "source": "com.tcn.sdk.lifthefansxdemo.app-main-10:/xml/preferences.xml"
     },
     {
         "merged": "/Users/new/.gradle/daemon/8.10/com.tcn.sdk.lifthefansxdemo.app-merged_res-8:/drawable-xhdpi_title_back_pressed.9.png.flat",
