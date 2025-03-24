@@ -1,0 +1,4 @@
+#Mon Mar 24 16:49:21 UZT 2025
+base.0=/Users/new/Downloads/TcnVend5InchSDKDemo/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

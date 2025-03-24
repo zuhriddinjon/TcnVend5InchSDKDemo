@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/new/.gradle/caches/8.10/transforms/b219c99c118b0b335abf1460c17920b8/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:tcn_5inchBoard-release:] /Users/new/.gradle/caches/8.10/transforms/26880d35d90d690ee698b80d201ab0a6/transformed/tcn_5inchBoard-release/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/new/.gradle/caches/8.10/transforms/688209586ca80ce3f5e58a0bb5be040f/transformed/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/a2a4f126d5233836e001ae7be07c41d7/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/new/.gradle/caches/8.10/transforms/d7e8340ded9306e79799de738cb3ab16/transformed/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/new/.gradle/caches/8.10/transforms/c208408a042d3a4f428521b46a82f138/transformed/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/ccc2b7c94d8d19b691765df57ecb30ba/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/new/.gradle/caches/8.10/transforms/4a7221290f0e51b607c10b54e1027b97/transformed/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3507c24db75fcaee5b4b3f0859837728/transformed/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/new/.gradle/caches/8.10/transforms/0362377097d44ca39ffd1b3b7cb07f61/transformed/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3c499ca8f6ca006d5e25b420a422e25d/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/20523e7b5052578d8247d0080f162681/transformed/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:3:11-48
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:7:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:12:5-74
+MERGED from [:tcn_5inchBoard-release:] /Users/new/.gradle/caches/8.10/transforms/26880d35d90d690ee698b80d201ab0a6/transformed/tcn_5inchBoard-release/AndroidManifest.xml:11:5-75
+MERGED from [:tcn_5inchBoard-release:] /Users/new/.gradle/caches/8.10/transforms/26880d35d90d690ee698b80d201ab0a6/transformed/tcn_5inchBoard-release/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:18:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CWJ_GROUP
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:24:5-84
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.MTWEAK_USER
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:27:5-70
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:27:22-67
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:30:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:31:5-80
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:31:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:33:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:34:5-78
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:34:22-75
+application
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:36:5-61:19
+	android:supportsRtl
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:40:9-35
+	android:label
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:39:9-41
+	android:allowBackup
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:38:9-35
+	android:theme
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:41:9-65
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:37:9-50
+activity#com.tcn.sdk.lifthefansxdemo.MenuSettingsStandJsActivity
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:42:9-48:20
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:42:19-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:46:27-74
+activity#com.tcn.sdk.lifthefansxdemo.SerialPortSetting
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:50:9-53:56
+	android:launchMode
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:53:13-44
+	android:configChanges
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:52:13-70
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:51:13-45
+receiver#controller.BootBroadcastReceiver
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:55:9-59:20
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:55:19-66
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:56:13-58:29
+	android:priority
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:56:28-50
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:57:17-79
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:57:25-76
+service#controller.VendService
+ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:60:9-66
+	android:name
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:60:18-55
+uses-sdk
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/new/.gradle/caches/8.10/transforms/b219c99c118b0b335abf1460c17920b8/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/new/.gradle/caches/8.10/transforms/b219c99c118b0b335abf1460c17920b8/transformed/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [:tcn_5inchBoard-release:] /Users/new/.gradle/caches/8.10/transforms/26880d35d90d690ee698b80d201ab0a6/transformed/tcn_5inchBoard-release/AndroidManifest.xml:7:5-9:41
+MERGED from [:tcn_5inchBoard-release:] /Users/new/.gradle/caches/8.10/transforms/26880d35d90d690ee698b80d201ab0a6/transformed/tcn_5inchBoard-release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/new/.gradle/caches/8.10/transforms/688209586ca80ce3f5e58a0bb5be040f/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/new/.gradle/caches/8.10/transforms/688209586ca80ce3f5e58a0bb5be040f/transformed/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/a2a4f126d5233836e001ae7be07c41d7/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/a2a4f126d5233836e001ae7be07c41d7/transformed/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/new/.gradle/caches/8.10/transforms/d7e8340ded9306e79799de738cb3ab16/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/new/.gradle/caches/8.10/transforms/d7e8340ded9306e79799de738cb3ab16/transformed/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/new/.gradle/caches/8.10/transforms/c208408a042d3a4f428521b46a82f138/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/new/.gradle/caches/8.10/transforms/c208408a042d3a4f428521b46a82f138/transformed/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/ccc2b7c94d8d19b691765df57ecb30ba/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/new/.gradle/caches/8.10/transforms/ccc2b7c94d8d19b691765df57ecb30ba/transformed/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/new/.gradle/caches/8.10/transforms/4a7221290f0e51b607c10b54e1027b97/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/new/.gradle/caches/8.10/transforms/4a7221290f0e51b607c10b54e1027b97/transformed/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3507c24db75fcaee5b4b3f0859837728/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3507c24db75fcaee5b4b3f0859837728/transformed/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/new/.gradle/caches/8.10/transforms/0362377097d44ca39ffd1b3b7cb07f61/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/new/.gradle/caches/8.10/transforms/0362377097d44ca39ffd1b3b7cb07f61/transformed/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3c499ca8f6ca006d5e25b420a422e25d/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/3c499ca8f6ca006d5e25b420a422e25d/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/20523e7b5052578d8247d0080f162681/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/new/.gradle/caches/8.10/transforms/20523e7b5052578d8247d0080f162681/transformed/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		ADDED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml

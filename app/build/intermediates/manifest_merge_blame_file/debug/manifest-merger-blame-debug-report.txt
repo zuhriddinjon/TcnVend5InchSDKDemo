@@ -1,0 +1,132 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tcn.sdk.inchdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:5:5-76
+11-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:6:5-76
+12-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:7:5-68
+13-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:7:22-65
+14
+15    <!-- 添加访问手机位置的权限 -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:10:22-78
+17    <!-- 添加访问手机状态的权限 -->
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:12:5-74
+18-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:14:5-79
+19-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:14:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:16:5-67
+20-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:16:22-64
+21    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+21-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:17:5-81
+21-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:17:22-78
+22    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+22-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:18:5-75
+22-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:18:22-72
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:19:5-81
+23-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:19:22-78
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:20:5-79
+24-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:20:22-77
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:21:5-79
+25-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:21:22-76
+26
+27    <!-- 允许CWJ账户组访问底层信息 -->
+28    <uses-permission android:name="android.permission.CWJ_GROUP" />
+28-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:24:5-84
+28-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:24:22-65
+29
+30    <!-- 允许mTweak用户访问高级系统权限 -->
+31    <uses-permission android:name="android.permission.MTWEAK_USER" />
+31-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:27:5-70
+31-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:27:22-67
+32
+33    <!-- 允许声波支付权限 -->
+34    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+34-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:30:5-71
+34-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:30:22-68
+35    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+35-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:31:5-80
+35-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:31:22-77
+36    <uses-permission android:name="android.permission.GET_TASKS" />
+36-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:33:5-68
+36-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:33:22-65
+37    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+37-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:34:5-78
+37-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:34:22-75
+38
+39    <application
+39-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:36:5-61:19
+40        android:name="controller.VendApplication"
+40-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:37:9-50
+41        android:allowBackup="true"
+41-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:38:9-35
+42        android:debuggable="true"
+43        android:label="@string/app_name"
+43-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:39:9-41
+44        android:supportsRtl="true"
+44-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:40:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+46-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:41:9-65
+47        <activity android:name="com.tcn.sdk.lifthefansxdemo.MenuSettingsStandJsActivity" >
+47-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:42:9-48:20
+47-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:42:19-62
+48            <intent-filter>
+48-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:43:13-47:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:44:17-69
+49-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:44:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:46:17-77
+51-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:46:27-74
+52            </intent-filter>
+53        </activity>
+54        <!-- <activity android:name=".MenuSettingsStandJsActivity" /> -->
+55        <activity
+55-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:50:9-53:56
+56            android:name="com.tcn.sdk.lifthefansxdemo.SerialPortSetting"
+56-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:51:13-45
+57            android:configChanges="locale|keyboardHidden|orientation"
+57-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:52:13-70
+58            android:launchMode="singleTask" />
+58-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:53:13-44
+59
+60        <receiver android:name="controller.BootBroadcastReceiver" >
+60-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:55:9-59:20
+60-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:55:19-66
+61            <intent-filter android:priority="999" >
+61-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:56:13-58:29
+61-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:56:28-50
+62                <action android:name="android.intent.action.BOOT_COMPLETED" />
+62-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:57:17-79
+62-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:57:25-76
+63            </intent-filter>
+64        </receiver>
+65
+66        <service android:name="controller.VendService" />
+66-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:60:9-66
+66-->/Users/new/Downloads/TcnVend5InchSDKDemo/app/src/main/AndroidManifest.xml:60:18-55
+67    </application>
+68
+69</manifest>

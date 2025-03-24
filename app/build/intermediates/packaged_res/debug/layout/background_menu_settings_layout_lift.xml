@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main_background"
+    android:orientation="vertical">
+
+    <com.tcn.sdk.lifthefansxdemo.Titlebar
+        android:id="@+id/menu_setttings_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_base_bk_layout_height">
+    </com.tcn.sdk.lifthefansxdemo.Titlebar>
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff0000"
+            android:textSize="30px" />
+
+    <Button
+        android:id="@+id/main_serport"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="Portni sozlash"
+        android:textColor="@color/red"
+        android:textSize="18sp" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/shop_car"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_marginTop="30px"
+        android:gravity="center"
+        android:text="Katta savat"
+        android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/shipContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="Tovar chiqarish natijasi"
+            android:textSize="32sp"></TextView>
+
+        <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+            android:id="@+id/menu_lift_ship_slot"
+            style="@style/background_lrmarginss"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+        </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+
+        <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+            android:id="@+id/menu_lift_ship_slot_test"
+            style="@style/background_lrmarginss"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+        </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+        <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+            android:id="@+id/menu_lift_reqselect"
+            style="@style/background_lrmarginss"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+
+        </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+        <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+            android:id="@+id/menu_ys_query_drive_slot_info"
+            style="@style/background_lrmarginss"
+            android:layout_width="match_parent"
+            android:layout_height="100px">
+        </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_lift_query_drive_fault"
+                style="@style/background_lrmarginss"
+                android:layout_width="0px"
+                android:layout_height="100px"
+                android:layout_weight="1">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_lift_clear_drive_fault"
+                style="@style/background_lrmarginss"
+                android:layout_width="0px"
+                android:layout_height="100px"
+                android:layout_weight="1">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+        </LinearLayout>
+
+
+</LinearLayout>

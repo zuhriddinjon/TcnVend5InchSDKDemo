@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main_background"
+    android:orientation="vertical">
+
+
+    <com.tcn.sdk.lifthefansxdemo.Titlebar
+        android:id="@+id/menu_setttings_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+
+    </com.tcn.sdk.lifthefansxdemo.Titlebar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/main_serport"
+                android:layout_width="match_parent"
+                android:layout_height="26dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="设置串口"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_lift_ship_slot"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_lift_ship_slot_test"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_lift_reqselect"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:visibility="gone"
+                android:id="@+id/menu_ys_query_drive_slot_info"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                    android:id="@+id/menu_ys_query_drive_fault"
+                    style="@style/background_lrmarginss"
+                    android:layout_width="0px"
+                    android:layout_height="100px"
+                    android:layout_weight="1">
+
+                </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+                <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                    android:id="@+id/menu_ys_clear_drive_fault"
+                    style="@style/background_lrmarginss"
+                    android:layout_width="0px"
+                    android:layout_height="100px"
+                    android:layout_weight="1">
+
+                </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+            </LinearLayout>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonSwitch
+                android:id="@+id/menu_ys_light_check"
+                style="@style/background_lrmarginson"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:visibility="visible">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonSwitch>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_ys_query_drive_info"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_ys_action"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_ys_query_param"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD
+                android:id="@+id/menu_ys_set_param_select"
+                style="@style/background_lrmarginss"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginRight="10px"
+                android:layout_marginBottom="10dp">
+
+            </com.tcn.sdk.lifthefansxdemo.ButtonEditSelectD>
+
+            <TextView
+                android:id="@+id/tv_read_cmd"
+                android:layout_width="match_parent"
+                android:layout_height="60px"
+                android:background="@color/ui_base_ghostwhite" />
+
+            <TextView
+                android:id="@+id/tv_read_string"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:background="@color/ui_base_ghostwhite" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>
